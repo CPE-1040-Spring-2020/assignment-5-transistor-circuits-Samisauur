@@ -26,21 +26,49 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 1. NPN transistor circuit
 Voltage measurements (off):
 Accross the resistor RC = 00V
-At the collector (C) = 2.67V
+At the collector (C) = 3.085V
 At the base (B) = 00V
 At the emitter (E) = 00V
 
 Current measurements (off): 
 i.The collector current IC = .001A
 ii. The emitter current IE = .001A
+iii. The base current IB = .004A
 
 Voltage measurements (on):
-Accross the resistor RC = 2.02V
-At the collector (C) = 2.97V
-At the base (B) = .74V
-At the emitter (E) = 7mV
+Accross the resistor RC = 4.38V
+At the collector (C) = 2.87V
+At the base (B) = .713V
+At the emitter (E) = 6.55mV
 
 Current measurements (on)
-The collector current IC = 6.0mA
-The emitter current IE = 7.28mA
-The base current IB = 1.3mA
+The collector current IC = 6.31mA
+The emitter current IE = 6.68mA 
+The base current IB = 0.368mA
+
+The relationship between the collector, emitter, and base is that the base is a small amount of energy that is given or removed by the switch, the emitter is the full power given, and the collector is what is holding most of the power.
+
+2. PNP transistor circuit
+  1. The LED lights up when the switch is off!
+  
+Voltage measurements (off):
+Accross the resistor RC = 
+At the collector (C) = 
+At the base (B) = 
+At the emitter (E) = 
+
+Current measurements (off): 
+i.The collector current IC = 
+ii. The emitter current IE = 
+iii. The base current IB = 
+
+Voltage measurements (on):
+Accross the resistor RC = 
+At the collector (C) = 
+At the base (B) = 
+At the emitter (E) = 
+
+Current measurements (on)
+The collector current IC = 
+The emitter current IE =  
+The base current IB = 
