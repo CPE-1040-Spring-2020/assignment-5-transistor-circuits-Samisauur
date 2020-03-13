@@ -83,7 +83,7 @@ The base current IB = .44mA
 *The relationship amongst them in PNP is is that the collector and base make up the sum of the emitter.
 The amplification coefficient is 16:1.
 
-### 3. Soil Sensor
+# 3. Soil Sensor
 
 
 ![alt text](
