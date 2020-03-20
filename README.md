@@ -1,5 +1,5 @@
 
-![alt text](https://imgur.com/EG31nT7)
+![alt text](IMG_2545.jpg)
 # 1. NPN transistor circuit
 ###Voltage measurements (Switch off):
 
