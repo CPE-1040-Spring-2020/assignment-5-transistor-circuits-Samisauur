@@ -1,5 +1,6 @@
 
-![alt text](Notes CPE 1040 (2).png)
+![alt text](NPN.png)
+
 # 1. NPN transistor circuit
 ###Voltage measurements (Switch off):
 
@@ -41,6 +42,7 @@ The relationship between the collector, emitter, and base is that the base is a 
 The amplification coefficient is roughly 17:1.
 
 ![alt text](Notes CPE 1040.png)
+
 # 2. PNP transistor circuit
 
 The LED lights up when the switch is off!
@@ -88,9 +90,11 @@ The amplification coefficient is 16:1.
 
 
 ![alt text](IMG_2545.jpg)
+
 1) Probe 1 contains the ground, resister, transister, and signal; these transistor allows the VCC to switch to the signal when Probe 1     senses wetness. 
 
 2) I will be measuring Rdry by leaving prongs out, Rwet by placing prongs on a damp cloth, and Rsoak by inserting the prongs in a   cup of water.
+
 ![alt text](IMG_2548.jpg)
 
 3) Will use bread and breakout board with alligator wires to measure the base voltage of the sensor transistor. 
@@ -98,6 +102,7 @@ The amplification coefficient is 16:1.
   fully dry soil VBDRY = 00V 
   somewhat wet soil VBWET = 4.67V (declining)
   fully soaked soil VBSOA = 5.00V (declining)
+  
   ![alt text](IMG_2550.jpg)
 
 4) I did not need a pull up resistor since the microbit already contained one and the wires connecting to the analog pins. Used a digital read pin on the microbit. Whenever anolog 8 switched between 0/1 it caused the LED in anolog pin 12 to go on or off depending on 0/1. See the demo [here](https://imgur.com/gallery/IxgBkvT).
