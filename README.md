@@ -107,4 +107,10 @@ The amplification coefficient is 16:1.
 
 4) I did not need a pull up resistor since the microbit already contained one and the wires connecting to the analog pins. Used a digital read pin on the microbit. Whenever anolog 8 switched between 0/1 it caused the LED in anolog pin 12 to go on or off depending on 0/1. See the demo [here](https://imgur.com/gallery/IxgBkvT).
 
-5) 
+5) I connected the GND wire to Ground, the VCC to anolog pin 12, and SIG to my digital writepin 0.
+
+# Manual Calibration 
+Wrote a program that would make the number of LEDs increase or decrease depending on how wet the sensor got. Link to the demo [here]()
+
+# Automatic Calibration
+Wrote another program to show a North or South arrow depending on how wet the sensor was. South asks to take low values and record it while North asks the user to take a readings of high values and records it. My demo [here]()
