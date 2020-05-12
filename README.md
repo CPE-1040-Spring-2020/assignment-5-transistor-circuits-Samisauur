@@ -2,7 +2,7 @@
 ![alt text](NPN.png)
 
 # 1. NPN transistor circuit
-###Voltage measurements (Switch off):
+### Voltage measurements (Switch off):
 
 Accross the resistor RC = 00V
 
