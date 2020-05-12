@@ -1,11 +1,11 @@
-let value1 = pins.analogReadPin(AnalogPin.P0)
-let index = Math.map(value1, 0, 1023, 0, 4)
+let value = pins.analogReadPin(AnalogPin.P0)
+let index = Math.map(value, 6, 1023, 4, 0)
 
 basic.forever(function () {
-    pins.digitalWritePin(DigitalPin.P16, 1)
-    value1 = pins.analogReadPin(AnalogPin.P0)
-    index = Math.map(value1, 0, 1023, 0, 4)
-    pins.digitalWritePin(DigitalPin.P16, 0)
+    pins.digitalWritePin(DigitalPin.P12, 1)
+    value = pins.analogReadPin(AnalogPin.P0)
+    index = Math.map(value, 6, 1023, 4, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
     basic.clearScreen()
     for (let y = 4; y >= index; y--) {
         led.plot(0, y)
@@ -14,6 +14,6 @@ basic.forever(function () {
         led.plot(3, y)
         led.plot(4, y)
     }
-    basic.pause(200)
+    basic.pause(500)
     basic.clearScreen()
 })
