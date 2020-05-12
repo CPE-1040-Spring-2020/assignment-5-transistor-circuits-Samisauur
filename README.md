@@ -106,4 +106,5 @@ The amplification coefficient is 16:1.
   ![alt text](voltage.PNG)
 
 4) I did not need a pull up resistor since the microbit already contained one and the wires connecting to the analog pins. Used a digital read pin on the microbit. Whenever anolog 8 switched between 0/1 it caused the LED in anolog pin 12 to go on or off depending on 0/1. See the demo [here](https://imgur.com/gallery/IxgBkvT).
-  
+
+5) 
