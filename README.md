@@ -110,7 +110,7 @@ The amplification coefficient is 16:1.
 5) I connected the GND wire to Ground, the VCC to anolog pin 12, and SIG to my digital writepin 0.
 
 # Manual Calibration 
-Wrote a program that would make the number of LEDs increase or decrease depending on how wet the sensor got. Link to the demo [here]()
+Wrote a program that would make the number of LEDs increase or decrease depending on how wet the sensor got. Link to the demo [here](https://imgur.com/gallery/LDHAdZq)
 
 # Automatic Calibration
-Wrote another program to show a North or South arrow depending on how wet the sensor was. South asks to take low values and record it while North asks the user to take a readings of high values and records it. My demo [here]()
+Wrote another program to show a North or South arrow depending on how wet the sensor was. South arrows asks to take low values (dry) and records it. North arrows asks the user to take a readings of high values (wet) and records it. My demo [here](https://imgur.com/gallery/oz0bg2L)
