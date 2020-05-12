@@ -41,7 +41,7 @@ The base current IB = 0.368mA
 The relationship between the collector, emitter, and base is that the base is a small amount of energy that is given or removed by the switch, the emitter is the full power given, and the collector is what is holding most of the power.
 The amplification coefficient is roughly 17:1.
 
-![alt text](Notes CPE 1040.png)
+![alt text](pnp.PNG)
 
 # 2. PNP transistor circuit
 
@@ -103,7 +103,7 @@ The amplification coefficient is 16:1.
   somewhat wet soil VBWET = 4.67V (declining)
   fully soaked soil VBSOA = 5.00V (declining)
   
-  ![alt text](IMG_2550.jpg)
+  ![alt text](voltage.PNG)
 
 4) I did not need a pull up resistor since the microbit already contained one and the wires connecting to the analog pins. Used a digital read pin on the microbit. Whenever anolog 8 switched between 0/1 it caused the LED in anolog pin 12 to go on or off depending on 0/1. See the demo [here](https://imgur.com/gallery/IxgBkvT).
   
